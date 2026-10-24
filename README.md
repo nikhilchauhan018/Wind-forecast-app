@@ -2,7 +2,7 @@
 
 Web app that shows a UK energy buyer (1) the latest national wind forecast available at the day-ahead decision time and (2) how accurate those forecasts were, with a recommended margin to keep.
 
-**Live app:** `<add your Vercel URL here>`
+**Live app:** `https://windforecastapp-git-main-nikhils-projects-8292bd74.vercel.app/`
 
 **AI tools used:** Claude (Anthropic) and GitHub Copilot AI in VS Code were used transparently during this project to assist with product design, implementation, UI restructuring, test creation, code review, troubleshooting and documentation. The final code, decisions and validation were reviewed by the developer; automated suggestions were not accepted without review. Backend tests and the frontend production build were run locally, and the analysis logic was checked against the bundled Elexon data.
 

@@ -70,8 +70,10 @@ python scripts/ingest.py --from-files forecasts.json actuals.json   # use downlo
 
 1. Push this repo to GitHub.
 2. In Vercel choose "Add New Project" and import it.
-3. Leave the root directory as the repo root; `vercel.json` sets the build.
-4. Deploy, then put the URL at the top of this README.
+3. Set **Root Directory** to the repository root (`./`), not `frontend` or `backend`.
+4. Select **Other** as the framework preset. Do not select the FastAPI preset.
+5. Leave the build command and output directory from `vercel.json`: `npm run build` and `frontend/dist`.
+6. Deploy, then put the URL at the top of this README.
 
 ## Key assumptions
 
